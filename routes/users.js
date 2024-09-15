@@ -5,7 +5,7 @@ const {books} = require("../data/books.json")
 const router = express.Router();
 
 /**
- * Route: /
+ * Route: /users
  * Method: GET
  * Description: Get all users
  * Access: Public
@@ -19,7 +19,7 @@ router.get("/",(req, res)=>{
 })
 
 /**
- * Route: /:id
+ * Route: /users/:id
  * Method: GET
  * Description: Get user by their id
  * Access: Public
@@ -40,7 +40,7 @@ router.get("/:id",(req, res)=>{
 })
 
 /**
- * Route: /
+ * Route: /users
  * Method: POST
  * Description: Create a new user
  * Access: Public
@@ -65,7 +65,7 @@ router.post("/", (req, res)=>{
 })
 
 /**
- * Route: /:id
+ * Route: /users/:id
  * Method: PUT
  * Description: Updating a user by their ID
  * Access: Public
@@ -97,7 +97,7 @@ router.put("/:id", (req, res)=>{
 })
 
 /**
- * Route: /:id
+ * Route: /users/:id
  * Method: DELETE
  * Description: Deleting a user by their ID
  * Access: Public
