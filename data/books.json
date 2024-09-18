@@ -24,6 +24,14 @@
             "genre": "Fantasy",
             "price": "12.99",
             "publisher": "Houghton Mifflin"
+        },
+        {
+            "id": "4",
+            "name": "The Ikigai Journey",
+            "author": "Hector Garcia",
+            "genre": "Self-help book",
+            "price": "5.95",
+            "publisher": "Tuttle Publishing"
         }
     ]
 }
